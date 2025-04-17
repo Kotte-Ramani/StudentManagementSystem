@@ -1,0 +1,78 @@
+body{
+    margin: 0%;
+   padding: 0%;
+  
+   /* background-image: linear-gradient(purple  ,aqua );
+    */
+    background-image: url(./photos/login.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: sticky;
+}
+div{
+    
+    height: 100cqb;
+    width: 100%;
+    
+}
+form>fieldset{
+    color: #ffffff34;
+   background-color: #ffffff34;
+   border-radius: 5px;
+}
+form{
+    width: 500px;
+    position: relative;
+    top:15%;
+    left: 35%;
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: none;
+}
+button{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    
+}
+h1{
+    color: #fff;
+}
+@media only screen and (max-width:600px){
+    form{
+        width:300px;
+        position: relative;
+    top:15%;
+    left: 20%;
+    }
+    input{
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        padding-left: 15px;
+    }
+}
+ @media only screen and (min-width:651px){
+    
+ }
+.btn{
+    margin-left: 30%;
+}
+span{
+    margin-left: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
